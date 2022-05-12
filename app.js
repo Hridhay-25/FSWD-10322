@@ -21,7 +21,18 @@ const car1 = Car('C 200D','Mercedes',2022)
 console.log(car1)*/
 /*localStorage.setItem('brand',"C++ class")
 console.log(localStorage.getItem('model'))*/
-const Dosomething=function(){
+/*const Dosomething=function(){
     console.log("Hello")
 }
-window.setTimeout(Dosomething,10000)
+window.setTimeout(Dosomething,10000)*/
+/*const Dosomething=function(){
+    console.log("d")
+}
+setTimeout(Dosomething,0)
+console.log("a")
+console.log("b")
+console.log("c")
+console.log("e")*/
+//console.log(document)
+const ele=document.getElementById('car')
+console.log(ele.innerHTML)
