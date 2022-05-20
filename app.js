@@ -34,5 +34,7 @@ console.log("b")
 console.log("c")
 console.log("e")*/
 //console.log(document)
-const ele=document.getElementById('car')
-console.log(ele.innerHTML)
+const button=document.querySelector('button')
+function toggle(){
+    console.log("you clicked a button")
+}
